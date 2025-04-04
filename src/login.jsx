@@ -11,7 +11,7 @@ function Login() {
         if(inputLogin === savedLogin && inputPassword === savedPassword)
         {
             console.log("вы авторизировались!")
-            window.location.href = '/#/home';
+            window.location.href = '/mortyblog/#/home';
         }
         else{
             console.log("password or login incorrect")

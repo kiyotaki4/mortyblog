@@ -9,7 +9,7 @@ function Registration() {
         localStorage.setItem('regLogin',inputRegLogin)
         localStorage.setItem('regPassword',inputRegPassword)
         console.log("Данные сохранены логин пароль: "+localStorage.getItem('regLogin'),localStorage.getItem('regPassword'))
-        window.location.href = '/#/login';
+        window.location.href = '/mortyblog/#/login';
     }
   return (
     <div className="registration-body">
