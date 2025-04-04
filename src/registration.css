@@ -1,0 +1,19 @@
+.registrationWindow{
+    border: 1px solid blueviolet;
+    border-radius: 20px;
+    width: 600px;
+    height: 420px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    margin: 60px auto;
+ 
+}   
+.registration-body{
+    max-width: 1280px; 
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
